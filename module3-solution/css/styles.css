@@ -1,0 +1,34 @@
+body {
+    font-size: 16px;
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+#chicken-tile div, #beef-tile div, #sushi-tile div {
+    background-color: #999999;
+    padding: 5px 15px;
+    margin-top: 15px;
+    max-height: 500px;
+    overflow-y: hidden;
+}
+
+#chicken-tile div:hover, #beef-tile div:hover, #sushi-tile div:hover {
+    overflow-y: scroll;
+}
+
+#chicken-tile h3, #beef-tile h3, #sushi-tile h3 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#nav-list {
+    background-color: #c8c9ff;
+    font-size: 1.5em;
+}
+
+#nav-list hr {
+    margin: 0;
+}
