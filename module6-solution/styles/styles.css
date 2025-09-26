@@ -1,0 +1,9 @@
+.no-data {
+    color: red;
+    border: 1px solid red;
+}
+
+.enjoy, .too-much {
+    color: green;
+    border: 1px solid green;
+}
